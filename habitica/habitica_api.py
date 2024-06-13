@@ -2,9 +2,9 @@ import requests
 
 class HabiticaAPI:
     def __init__(self, user_id, api_token):
-        self.base_url = 'https://habitica.com/api/v3'
+        self.base_url = 'https://habitica.com/api/v3' 
         self.headers = {
-            'x-client': 'your-client-id',  
+            'x-client': 'TTAProject',  
             'x-api-user': user_id,
             'x-api-key': api_token
         }
